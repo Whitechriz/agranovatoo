@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+@import "tailwindcss";
+
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  background: #a9bf70;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: #fff;
+  color: #527b25;
+}
+
+
+/* Industrial chemistry catalogue */
+
+.catalogue-card {
+  background: #fff;
+  transition: background-color 220ms ease;
+}
+
+.catalogue-card:hover {
+  background-color: #f4f7f8;
+}
+
+.catalogue-tabs {
+  scrollbar-width: none;
+}
+
+.catalogue-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.catalogue-card img {
+  user-select: none;
+  -webkit-user-drag: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .catalogue-card,
+  .catalogue-card img {
+    transition: none;
+  }
+}

@@ -66,16 +66,16 @@ function Footer() {
                 {/* Replace with the official logo asset if available */}
                 <span className="flex h-10 w-10 items-center justify-center
                   rounded-full bg-[#b7d46b] text-xl font-bold text-[#171916]">
-                  U
+                  A
                 </span>
 
                 <span className="text-2xl font-bold tracking-[0.16em]">
-                  URALCHEM
+                  AGRANOVA
                 </span>
               </a>
 
               <a
-                href="https://www.uralchem.com/"
+                href="https://agranovatoo.com//"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group mt-8 inline-flex items-center gap-4
@@ -113,15 +113,15 @@ function Footer() {
                   href="mailto:domestic@uralchem.com"
                   className="break-all text-base transition-colors hover:text-[#b7d46b]"
                 >
-                  domestic@uralchem.com
+                  info@agranovatoo.com
                 </a>
 
                 <address className="mt-2 max-w-sm text-sm not-italic leading-7 text-[#98989a]">
-                  6/2 Presnenskaya Embankment,
+                  St. Lobachevskogo, 57a, , 
                   <br />
-                  Imperia Tower, Moscow,
+                  Zhetysuskiy District, City Almaty, 050016 
                   <br />
-                  123112, Russia
+                  Kazakhstan.
                 </address>
               </div>
             </div>
@@ -136,7 +136,7 @@ function Footer() {
             </p>
 
             <a
-              href="https://www.uralchem.ru/"
+              href="https://agranovatoo.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="transition-colors hover:text-white"

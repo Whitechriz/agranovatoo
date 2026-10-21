@@ -5,6 +5,7 @@ import Header from "./component/Header.jsx";
 import Footer from "./component/Footer.jsx";
 import ApplicationAreas from "./pages/ApplicationAreas.jsx";
 import ProductDetail from "./pages/ProductDetail.jsx";
+import Contacts from "./pages/Contacts.jsx";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
       <Route path="/catalogue" element={<Catalogue />} />
       <Route path="/application-areas/" element={<ApplicationAreas />} />
       <Route path="/catalogue/:id" element={<ProductDetail />} />
+      <Route path="/contacts" element={<Contacts />} />
     </Routes>
     <Footer />
     </>

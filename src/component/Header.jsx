@@ -3,6 +3,7 @@ import { useState } from "react";
 import { ChevronDown, Menu, X } from "lucide-react";
 import { Link } from "react-router-dom";
 
+
 const languages = [
   { code: "EN", name: "English", flag: "🇬🇧" },
   { code: "RU", name: "Русский", flag: "🇷🇺" },
@@ -22,16 +23,15 @@ function Logo() {
           />
         ))}
       </span>
-      <Link to="/">
-        <span className="flex flex-col leading-none">
-          <strong className="text-xl font-black tracking-tight">
-            AGRANOVA
-          </strong>
-          <small className="mt-1 text-[9px] font-bold tracking-[0.2em]">
-            KAZAKHSTAN
-          </small>
-        </span>
-      </Link>
+
+
+<Link to="/" className="flex items-center">
+  <img
+    src="https://i.ibb.co/RTPrg8Qb/logo.jpg"
+    alt="Agranova Logo"
+    className="h-10 w-auto object-contain"
+  />
+</Link>
 
 
 

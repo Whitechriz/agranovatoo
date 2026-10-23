@@ -1,5 +1,6 @@
 
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const footerLinks = [
   { label: "Application industries", href: "/application-areas" },
@@ -60,14 +61,17 @@ function Footer() {
             <div className="flex flex-col items-start">
               <a
                 href="/"
-                aria-label="Uralchem home"
+                aria-label="agronova home"
                 className="inline-flex items-center gap-3"
               >
                 {/* Replace with the official logo asset if available */}
-                <span className="flex h-10 w-10 items-center justify-center
-                  rounded-full bg-[#b7d46b] text-xl font-bold text-[#171916]">
-                  A
-                </span>
+<Link to="/" className="flex items-center">
+  <img
+    src="https://i.ibb.co/RTPrg8Qb/logo.jpg"
+    alt="Agranova Logo"
+    className="h-10 w-auto object-contain"
+  />
+</Link>
 
                 <span className="text-2xl font-bold tracking-[0.16em]">
                   AGRANOVA
@@ -96,21 +100,21 @@ function Footer() {
 
               <div className="flex flex-col items-start gap-4">
                 <a
-                  href="tel:+74957218989"
+                  href="tel:+7 (729) 092 3204"
                   className="text-base transition-colors hover:text-[#b7d46b]"
                 >
-                  +7 (495) 721 89 89
+                  +7 (729) 092 3204
                 </a>
 
                 <a
-                  href="tel:+74957218585"
+                  href="tel:+7 (729) 092 3204"
                   className="text-base transition-colors hover:text-[#b7d46b]"
                 >
-                  +7 (495) 721 85 85 (Fax)
+                  +7 (729) 092 3204(Fax)
                 </a>
 
                 <a
-                  href="mailto:domestic@uralchem.com"
+                  href="mailto:sales@agranovatoo.com"
                   className="break-all text-base transition-colors hover:text-[#b7d46b]"
                 >
                   info@agranovatoo.com
@@ -132,7 +136,7 @@ function Footer() {
             text-xs text-[#98989a] md:flex-row md:items-center md:justify-between">
 
             <p>
-              © {new Date().getFullYear()} Uralchem. All rights reserved.
+              © {new Date().getFullYear()} Agronova. All rights reserved.
             </p>
 
             <a

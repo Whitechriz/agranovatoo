@@ -11,12 +11,12 @@ const contactData = {
   export: [
     {
       title: "Sales of water-soluble / specialty products",
-      email: "info@agranovatoo.com",
+      email: "sales@agranovatoo.com",
     },
     {
       title:
         "Sales of N(S), NP, NPK(S) fertilisers / feed additives",
-      email: "info@agranovatoo.com",
+      email: "sales@agranovatoo.com",
     },
   ],
   domestic: [
@@ -24,14 +24,14 @@ const contactData = {
       title: "Agronova Kazakhstanis, LLP",
       address:
         "St. Lobachevskogo, 57a, Zhetysuskiy District, City Almaty, 050016 , Kazakhstan.",
-      phone: "+7 (342) 207-11-50",
+      phone: "+7 (729) 092 3204 ", 
       emails: ["info@agranovatoo.com"],
     },
     {
       title: "Agronoatoo JSC",
       address:
         "St. Lobachevskogo, 57a, Zhetysuskiy District, City Almaty, 050016 , Kazakhstan.",
-      phone: "+7 (495) 721 89 89",
+      phone: "+7 (729) 092 3204 ",
       emails: [
         "info@agranovatoo.com",
         "info@agranovatoo.com",

@@ -61,7 +61,7 @@ function Footer() {
             <div className="flex flex-col items-start">
               <a
                 href="/"
-                aria-label="agronova home"
+                aria-label="agranova home"
                 className="inline-flex items-center gap-3"
               >
                 {/* Replace with the official logo asset if available */}
@@ -136,7 +136,7 @@ function Footer() {
             text-xs text-[#98989a] md:flex-row md:items-center md:justify-between">
 
             <p>
-              © {new Date().getFullYear()} Agronova. All rights reserved.
+              © {new Date().getFullYear()} Agranova. All rights reserved.
             </p>
 
             <a

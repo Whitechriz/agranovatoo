@@ -79,7 +79,7 @@ export default function Header() {
       </nav>
 
       <a
-        href="https://tech.uralchem.com/"
+        href="https://www.agranovatoo.com/"
         target="_blank"
         rel="noreferrer"
         className="hidden shrink-0 text-sm font-bold transition-opacity hover:opacity-70 xl:block"

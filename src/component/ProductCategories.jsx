@@ -1,5 +1,6 @@
 
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import {
     ArrowUpRight,
     FlaskConical,
@@ -102,13 +103,13 @@ export default function ProductCategories() {
                             </button>
                         </div>
 
-                        <a
-                            href="#catalogue"
+                        <Link
+                            to="/catalogue"
                             className="inline-flex items-center gap-3 rounded-full border border-[#555555] px-7 py-4 text-sm font-bold transition hover:border-emerald-500 hover:bg-emerald-500 hover:text-white sm:text-base"
                         >
                             View more
                             <ArrowUpRight size={18} />
-                        </a>
+                        </Link>
                     </div>
                 </div>
 

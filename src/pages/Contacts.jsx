@@ -25,7 +25,7 @@ const contactData = {
       address:
         "St. Lobachevskogo, 57a, Zhetysuskiy District, City Almaty, 050016 , Kazakhstan.",
       phone: "+7 (342) 207-11-50",
-      emails: ["domestic@uralchem.com"],
+      emails: ["info@agranovatoo.com"],
     },
     {
       title: "Agronoatoo JSC",
@@ -123,7 +123,7 @@ export default function Contacts() {
         <div className="mb-8 flex flex-col gap-5 sm:flex-row sm:items-end sm:justify-between">
           <div>
             <p className="mb-3 text-xs font-semibold uppercase tracking-[0.2em] text-red-700">
-              Uralchem Agro
+              Agronova Kazakhstan
             </p>
 
             <h1 className="text-4xl font-normal tracking-tight sm:text-5xl lg:text-6xl">
@@ -233,10 +233,10 @@ export default function Contacts() {
           <p className="text-sm leading-7 text-gray-500">
             For general enquiries, email{" "}
             <a
-              href="mailto:info@uralchem.com"
+              href="mailto:info@agranovatoo.com"
               className="font-medium text-gray-800 underline decoration-gray-300 underline-offset-4 hover:text-red-700"
             >
-              info@uralchem.com
+              Info@agranovatoo.com
             </a>
             .
           </p>

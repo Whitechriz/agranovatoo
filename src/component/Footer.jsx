@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 const footerLinks = [
   { label: "Application industries", href: "/application-areas" },
-  { label: "Product catalogue", href: "/catalog" },
+  { label: "Product catalogue", href: "/catalogUE" },
   { label: "Contacts", href: "/contacts" },
 ];
 

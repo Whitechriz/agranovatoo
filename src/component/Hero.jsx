@@ -1,5 +1,6 @@
 
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import {
   ArrowDownRight,
   ArrowLeft,
@@ -175,21 +176,21 @@ export default function Hero() {
           </h1>
         ))}
 
-        <a
-          href="#catalogue"
+        <Link
+          to="/catalogue"
           className="mt-9 inline-flex h-14 items-center gap-7 rounded-full bg-white px-7 text-base font-semibold text-[#343c2b] transition hover:-translate-y-1 hover:bg-[#f1f4e8] sm:mt-12"
         >
           Catalogue
           <ArrowDownRight size={19} />
-        </a>
+        </Link>
       </div>
 
       {/* Right-side product cards */}
       <aside className="absolute bottom-[100px] left-5 right-5 grid grid-cols-2 gap-3 sm:left-auto sm:right-7 sm:top-[8%] sm:bottom-auto sm:w-[280px] sm:grid-cols-1 sm:gap-5 lg:right-[2.65%] lg:w-[300px]">
         {slide.cards.map((card, index) => (
-          <a
+          <Link
             key={`${slide.category}-${card.title}`}
-            href="#catalogue"
+            to="/catalogue"
             className="group relative flex h-[205px] flex-col justify-end overflow-hidden rounded-lg border border-white/50 bg-[#aabd79]/90 p-3 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-xl sm:h-[245px] sm:p-4 lg:h-[270px]"
           >
             <img
@@ -211,7 +212,7 @@ export default function Hero() {
             <h2 className="relative max-w-[240px] text-sm font-bold leading-tight sm:text-base">
               {card.title}
             </h2>
-          </a>
+          </Link>
         ))}
       </aside>
 

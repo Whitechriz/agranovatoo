@@ -7,7 +7,7 @@ export default function FeaturedProducts() {
         {/* Hero Banner */}
         <div className="flex min-h-[184px] items-center justify-center rounded-md bg-gradient-to-r from-emerald-600 via-emerald-500 to-cyan-700 px-6 py-10 text-center sm:px-12">
           <h1 className="max-w-5xl text-2xl font-bold leading-[1.08] tracking-tight text-white sm:text-3xl md:text-4xl">
-            Agronova Kazakhstanis a Russian manufacturer of industrial
+            Agronova Kazakhstan is a leading producer of industrial
             chemicals and mineral fertilisers
           </h1>
         </div>
@@ -18,13 +18,13 @@ export default function FeaturedProducts() {
           <div className="space-y-8 text-base leading-8 text-slate-700 sm:text-lg">
             <p>
               Agronova Kazakhstan is one of the largest producers of mineral
-              fertilisers and chemical raw materials in Russia and the CIS.
+              fertilisers and chemical raw materials in Kazakhstan.
               We develop and manufacture products based on the latest global
               trends.
             </p>
 
             <p>
-              Uralchem Group offers industrial chemicals for various
+              Agronova Group offers industrial chemicals for various
               industries including chemicals, construction, mining,
               metalworking, oil &amp; gas, and others.
             </p>
@@ -39,18 +39,18 @@ export default function FeaturedProducts() {
           {/* Right Column */}
           <div className="space-y-8 text-base leading-8 text-slate-700 sm:text-lg">
             <p>
-              Uralchem Group is a leader of industrial expertise and a
+              Agronova Group is a leader of industrial expertise and a
               reliable partner for long-term cooperation.
             </p>
 
-            <p>
+            {/* <p>
               Our industrial chemicals are certified against ISO 9001,
               ISO 14001, ISO 45001, ISO 22000, and ISO/TS 22002-1.
-            </p>
+            </p> */}
 
             <p>
               If you are looking for a reliable supplier of high-quality
-              chemical products, Uralchem Group is a perfect choice.
+              chemical products, Agronova Group is a perfect choice.
               Reliability, quality and environmental safety are the main
               advantages that we are proud to offer to our customers.
             </p>

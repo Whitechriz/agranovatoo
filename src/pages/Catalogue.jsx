@@ -40,7 +40,7 @@ export const products = [
     id: 1,
     name: "Urea Technical Prilled Premium Grade",
     category: "Urea",
-    image: "https://i.ibb.co/xKh1c9SV/calcium-niterate.png",
+    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
     description:
       "Urea is used in the chemical industry as a raw material to produce plastics, adhesives and urea-formaldehyde resins, as well as to produce liquid additives for aftertreatment of exhaust gases from industrial plants and diesel engines of vessels (ISO 18611) and vehicles (ISO 22241).",
     scopes: ["Chemicals", "Environmental solutions"],
@@ -49,7 +49,7 @@ export const products = [
     id: 2,
     name: "Urea Technical Prilled First Grade",
     category: "Urea",
-    image: "https://i.ibb.co/VpMbkLdk/yiu0voua18p23w0w5e7bq7ei7l5xfmgk.png",
+    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
     description:
       "Urea is used in the chemical industry as a raw material to produce plastics, adhesives and urea-formaldehyde resins, as well as to produce liquid additives for aftertreatment of exhaust gases from industrial plants and diesel engines of vessels (ISO 18611) and vehicles (ISO 22241).",
     scopes: ["Chemicals", "Environmental solutions"],
@@ -58,7 +58,7 @@ export const products = [
     id: 3,
     name: "Ammonium Nitrate GOST 2-2013 Grade A",
     category: "Nitrates",
-    image: "https://i.ibb.co/VpMbkLdk/yiu0voua18p23w0w5e7bq7ei7l5xfmgk.png",
+    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
     description:
       "Ammonium nitrate is used as the main oxidiser in various types of industrial explosives.",
     scopes: ["Mining", "Construction"],
@@ -67,7 +67,7 @@ export const products = [
     id: 4,
     name: "Ammonium Nitrate GOST 2-2013 Grade B",
     category: "Nitrates",
-    image: "https://i.ibb.co/VpMbkLdk/yiu0voua18p23w0w5e7bq7ei7l5xfmgk.png",
+    image: "https://i.ibb.co/99LrM10f/product2.jpg",
     description:
       "Ammonium nitrate is used as the main oxidiser in various types of industrial explosives.",
     scopes: ["Mining", "Construction"],
@@ -76,7 +76,7 @@ export const products = [
     id: 5,
     name: "Ammonium Nitrate water-resistant grade",
     category: "Nitrates",
-    image: "https://i.ibb.co/xtY27vMY/7cz07sx6lh3stygd7oysxmniu92d53mr.png",
+    image: "https://i.ibb.co/99LrM10f/product2.jpg",
     description:
       "For the production of industrial explosive mixtures for waterflooded rock applications.",
     scopes: ["Mining", "Construction"],
@@ -85,7 +85,7 @@ export const products = [
     id: 6,
     name: "Ammonium Nitrate Porous prilled (PPAN)",
     category: "Nitrates",
-    image: "https://i.ibb.co/VpMbkLdk/yiu0voua18p23w0w5e7bq7ei7l5xfmgk.png",
+    image: "https://i.ibb.co/99LrM10f/product2.jpg",
     description:
       "Porous modified ammonium nitrate is used in the production of the ANFO industrial explosive, which is typically used for 127 mm wells.",
     scopes: ["Mining"],
@@ -94,7 +94,7 @@ export const products = [
     id: 7,
     name: "Sodium Nitrite Untreated",
     category: "Specialties",
-    image: "https://i.ibb.co/VpMbkLdk/yiu0voua18p23w0w5e7bq7ei7l5xfmgk.png",
+    image: "https://i.ibb.co/N6BKD6Jp/product3.jpg",
     description:
       "Sodium nitrite is utilised across multiple industries, notably as a gas-forming agent in explosive emulsion formulations.",
     scopes: ["Chemicals", "Mining"],
@@ -103,7 +103,7 @@ export const products = [
     id: 8,
     name: "MAP Technical Water-Soluble",
     category: "Specialties",
-    image: "https://i.ibb.co/VpMbkLdk/yiu0voua18p23w0w5e7bq7ei7l5xfmgk.png",
+    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
     description:
       "Monoammonium phosphate is a universal fire-retarding agent.",
     scopes: ["Fire protection", "Woodworking"],
@@ -112,7 +112,7 @@ export const products = [
     id: 9,
     name: "Sodium Nitrate Untreated Grade B",
     category: "Nitrates",
-    image: "https://i.ibb.co/xtY27vMY/7cz07sx6lh3stygd7oysxmniu92d53mr.png",
+    image: "https://i.ibb.co/N6BKD6Jp/product3.jpg",
     description:
       "As a component of emulsion explosives, sodium nitrate lowers the emulsion crystallisation temperature while enhancing detonation energy.",
     scopes: ["Mining", "Chemicals"],
@@ -121,7 +121,7 @@ export const products = [
     id: 10,
     name: "Calcium Nitrate Anhydrous",
     category: "Nitrates",
-    image: "https://i.ibb.co/xKh1c9SV/calcium-niterate.png",
+    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
     description:
       "Calcium nitrate is widely used across multiple industries.",
     scopes: ["Construction", "Chemicals"],
@@ -130,7 +130,7 @@ export const products = [
     id: 11,
     name: "ADBLUE, nitrogen oxide reducer AUS 32",
     category: "ADBLUE",
-    image: "https://i.ibb.co/xKh1c9SV/calcium-niterate.png",
+    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
     description:
       "The product is intended to effectively reduce emissions of nitrogen oxides from vehicles with diesel engines.",
     scopes: ["Environmental solutions"],
@@ -139,7 +139,7 @@ export const products = [
     id: 12,
     name: "Ammonia anhydrous liquefied GOST 6221-90 Grade Ak, B",
     category: "Ammonia",
-    image: "https://i.ibb.co/GvF1h6fm/ammonium-nitrate-a.png",
+    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
     description:
       "Grade Ak and B anhydrous liquefied ammonia is used in the production of nitrogen fertilisers and as a standalone straight fertiliser.",
     scopes: ["Chemicals", "Environmental solutions"],

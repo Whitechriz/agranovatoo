@@ -36,20 +36,20 @@ const applicationScopes = [
 ];
 
 export const products = [
-  {
-    id: 1,
-    name: "Urea Technical Prilled Premium Grade",
-    category: "Urea",
-    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
-    description:
-      "Urea is used in the chemical industry as a raw material to produce plastics, adhesives and urea-formaldehyde resins, as well as to produce liquid additives for aftertreatment of exhaust gases from industrial plants and diesel engines of vessels (ISO 18611) and vehicles (ISO 22241).",
-    scopes: ["Chemicals", "Environmental solutions"],
-  },
+{
+  id: 1,
+  name: "Potassium Nitrate Premium Grade",
+  category: "Potassium Nitrate",
+  image: "https://i.ibb.co/XZBbNy1b/product2.jpg",
+  description:
+    "Potassium nitrate is a high-quality source of potassium and nitrogen used in the production of fertilizers for modern agriculture. It supports healthy plant growth, improves nutrient uptake, and contributes to crop development and quality. Its high solubility makes it suitable for fertigation, hydroponic systems, and other specialized agricultural applications. Potassium nitrate is also used in selected industrial processes.",
+  scopes: ["Agriculture", "Fertilizers", "Industrial applications"],
+},
   {
     id: 2,
     name: "Urea Technical Prilled First Grade",
     category: "Urea",
-    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
+    image: "https://i.ibb.co/TxFn5hz4/Premium-Urea-Fertilizer-Packaging.png",
     description:
       "Urea is used in the chemical industry as a raw material to produce plastics, adhesives and urea-formaldehyde resins, as well as to produce liquid additives for aftertreatment of exhaust gases from industrial plants and diesel engines of vessels (ISO 18611) and vehicles (ISO 22241).",
     scopes: ["Chemicals", "Environmental solutions"],
@@ -58,34 +58,38 @@ export const products = [
     id: 3,
     name: "Ammonium Nitrate GOST 2-2013 Grade A",
     category: "Nitrates",
-    image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
+    image: "https://i.ibb.co/whBWP6dF/Agranova-Ammonium-Nitrate-Fertilizer-Bag.png",
     description:
       "Ammonium nitrate is used as the main oxidiser in various types of industrial explosives.",
     scopes: ["Mining", "Construction"],
   },
-  {
-    id: 4,
-    name: "Ammonium Nitrate GOST 2-2013 Grade B",
-    category: "Nitrates",
-    image: "https://i.ibb.co/99LrM10f/product2.jpg",
-    description:
-      "Ammonium nitrate is used as the main oxidiser in various types of industrial explosives.",
-    scopes: ["Mining", "Construction"],
-  },
-  {
-    id: 5,
-    name: "Ammonium Nitrate water-resistant grade",
-    category: "Nitrates",
-    image: "https://i.ibb.co/99LrM10f/product2.jpg",
-    description:
-      "For the production of industrial explosive mixtures for waterflooded rock applications.",
-    scopes: ["Mining", "Construction"],
-  },
+{
+  id: 4,
+  name: "Monopotassium Phosphate Premium Grade",
+  category: "Phosphate Fertilizers",
+  image: "https://i.ibb.co/XZBbNy1b/product1.jpg",
+  description:
+    "Monopotassium phosphate (MKP) is a high-purity, water-soluble fertilizer that provides essential phosphorus and potassium for healthy plant growth and improved crop productivity. It supports root development, flowering, fruit formation, and crop quality. Its excellent solubility makes it suitable for fertigation, hydroponics, and foliar application in modern agricultural systems. Monopotassium phosphate is also used in selected food-processing and industrial applications, subject to the required grade and specifications.",
+  scopes: ["Agriculture", "Fertilizers", "Industrial applications"],
+},
+{
+  id: 5,
+  name: "Ammonium Nitrate Water-Resistant Grade",
+  category: "Nitrogen Fertilizers",
+  image: "https://i.ibb.co/whBWP6dF/Agranova-Ammonium-Nitrate-Fertilizer-Bag.png",
+  description:
+    "AGRANOVA Ammonium Nitrate Water-Resistant Grade is a nitrogen fertilizer designed to provide readily available nitrogen to support plant growth and agricultural productivity. Its moisture-resistant properties help protect the product during storage and handling under appropriate conditions. Suitable for agricultural nutrient management, it should be applied according to crop requirements, soil conditions, product specifications, and applicable safety guidelines.",
+  scopes: [
+    "Agriculture",
+    "Nitrogen Fertilizers",
+    "Crop Nutrition"
+  ],
+},
   {
     id: 6,
     name: "Ammonium Nitrate Porous prilled (PPAN)",
     category: "Nitrates",
-    image: "https://i.ibb.co/99LrM10f/product2.jpg",
+    image: "https://i.ibb.co/whBWP6dF/Agranova-Ammonium-Nitrate-Fertilizer-Bag.png",
     description:
       "Porous modified ammonium nitrate is used in the production of the ANFO industrial explosive, which is typically used for 127 mm wells.",
     scopes: ["Mining"],
@@ -94,7 +98,7 @@ export const products = [
     id: 7,
     name: "Sodium Nitrite Untreated",
     category: "Specialties",
-    image: "https://i.ibb.co/N6BKD6Jp/product3.jpg",
+    image: "https://i.ibb.co/tPNxVBnV/Agranova-Sodium-Nitrite-Product-Display.png",
     description:
       "Sodium nitrite is utilised across multiple industries, notably as a gas-forming agent in explosive emulsion formulations.",
     scopes: ["Chemicals", "Mining"],
@@ -112,7 +116,7 @@ export const products = [
     id: 9,
     name: "Sodium Nitrate Untreated Grade B",
     category: "Nitrates",
-    image: "https://i.ibb.co/N6BKD6Jp/product3.jpg",
+    image: "https://i.ibb.co/tPNxVBnV/Agranova-Sodium-Nitrite-Product-Display.png",
     description:
       "As a component of emulsion explosives, sodium nitrate lowers the emulsion crystallisation temperature while enhancing detonation energy.",
     scopes: ["Mining", "Chemicals"],

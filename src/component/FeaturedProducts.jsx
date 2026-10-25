@@ -7,7 +7,7 @@ export default function FeaturedProducts() {
         {/* Hero Banner */}
         <div className="flex min-h-[184px] items-center justify-center rounded-md bg-gradient-to-r from-emerald-600 via-emerald-500 to-cyan-700 px-6 py-10 text-center sm:px-12">
           <h1 className="max-w-5xl text-2xl font-bold leading-[1.08] tracking-tight text-white sm:text-3xl md:text-4xl">
-            Agronova Kazakhstan is a leading producer of industrial
+            Agranova Kazakhstan is a leading producer of industrial
             chemicals and mineral fertilisers
           </h1>
         </div>
@@ -17,14 +17,14 @@ export default function FeaturedProducts() {
           {/* Left Column */}
           <div className="space-y-8 text-base leading-8 text-slate-700 sm:text-lg">
             <p>
-              Agronova Kazakhstan is one of the largest producers of mineral
+              Agranova Kazakhstan is one of the largest producers of mineral
               fertilisers and chemical raw materials in Kazakhstan.
               We develop and manufacture products based on the latest global
               trends.
             </p>
 
             <p>
-              Agronova Group offers industrial chemicals for various
+              Agranova Group offers industrial chemicals for various
               industries including chemicals, construction, mining,
               metalworking, oil &amp; gas, and others.
             </p>
@@ -39,7 +39,7 @@ export default function FeaturedProducts() {
           {/* Right Column */}
           <div className="space-y-8 text-base leading-8 text-slate-700 sm:text-lg">
             <p>
-              Agronova Group is a leader of industrial expertise and a
+              Agranova Group is a leader of industrial expertise and a
               reliable partner for long-term cooperation.
             </p>
 
@@ -50,7 +50,7 @@ export default function FeaturedProducts() {
 
             <p>
               If you are looking for a reliable supplier of high-quality
-              chemical products, Agronova Group is a perfect choice.
+              chemical products, Agranova Group is a perfect choice.
               Reliability, quality and environmental safety are the main
               advantages that we are proud to offer to our customers.
             </p>

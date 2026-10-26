@@ -4,8 +4,10 @@ import { Link } from "react-router-dom";
 
 const footerLinks = [
   { label: "Application industries", href: "/application-areas" },
-  { label: "Product catalogue", href: "/catalogUE" },
+  { label: "Product catalogue", href: "/catalogue" },
   { label: "Contacts", href: "/contacts" },
+  { label: "About Us", href: "/" },
+    
 ];
 
 function Footer() {
@@ -30,7 +32,7 @@ function Footer() {
           {/* Footer navigation */}
           <nav
             aria-label="Footer navigation"
-            className="grid grid-cols-1 border-b border-white/15 md:grid-cols-3"
+            className="grid grid-cols-1 border-b border-white/15 md:grid-cols-4"
           >
             {footerLinks.map((link) => (
               <a
@@ -42,13 +44,13 @@ function Footer() {
                   md:border-b-0 md:border-r md:border-white/15
                   md:pr-6 md:last:border-r-0 md:[&:not(:first-child)]:pl-6"
               >
-                <span>{link.label}</span>
+                <span>{link.label}   ↗</span>
                 <span
                   aria-hidden="true"
                   className="text-lg transition-transform duration-300
                     group-hover:-translate-y-1 group-hover:translate-x-1"
                 >
-                  ↗
+                
                 </span>
               </a>
             ))}
@@ -65,13 +67,13 @@ function Footer() {
                 className="inline-flex items-center gap-3"
               >
                 {/* Replace with the official logo asset if available */}
-<Link to="/" className="flex items-center">
-  <img
-    src="https://i.ibb.co/RTPrg8Qb/logo.jpg"
-    alt="Agranova Logo"
-    className="h-10 w-auto object-contain"
-  />
-</Link>
+                <Link to="/" className="flex items-center">
+                  <img
+                    src="https://i.ibb.co/RTPrg8Qb/logo.jpg"
+                    alt="Agranova Logo"
+                    className="h-10 w-auto object-contain"
+                  />
+                </Link>
 
                 <span className="text-2xl font-bold tracking-[0.16em]">
                   AGRANOVA
@@ -79,7 +81,7 @@ function Footer() {
               </a>
 
               <a
-                href="https://agranovatoo.com//"
+                href="https://agranovatoo.com/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group mt-8 inline-flex items-center gap-4
@@ -121,9 +123,9 @@ function Footer() {
                 </a>
 
                 <address className="mt-2 max-w-sm text-sm not-italic leading-7 text-[#98989a]">
-                  St. Lobachevskogo, 57a, , 
+                  St. Lobachevskogo, 57a, ,
                   <br />
-                  Zhetysuskiy District, City Almaty, 050016 
+                  Zhetysuskiy District, City Almaty, 050016
                   <br />
                   Kazakhstan.
                 </address>

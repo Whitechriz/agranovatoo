@@ -4,7 +4,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 
 const statistics = [
   {
-    number: "100",
+    number: "90",
     heading: "More than",
     description: "distribution points",
     color: "from-emerald-500 to-green-600",
@@ -18,7 +18,7 @@ const statistics = [
     numberColor: "text-green-600",
   },
   {
-    number: "100+",
+    number: "99+",
     heading: "integrated",
     description: "business solutions",
     color: "from-emerald-600 to-slate-600",
@@ -61,7 +61,7 @@ export default function ScrollStats() {
                 <span
                   className={`bg-gradient-to-r ${stat.color}
                     bg-clip-text text-transparent
-                    text-[clamp(8rem,19vw,18rem)]
+                    text-[clamp(8rem,19vw,16rem)]
                     font-black leading-[0.8] tracking-[-0.09em]
                     whitespace-nowrap`}
                 >
@@ -74,7 +74,7 @@ export default function ScrollStats() {
                 justify-center sm:ml-6 sm:w-[150px]
                 lg:ml-8 lg:w-[190px]"
               >
-                <h2 className="text-xl font-bold leading-tight
+                <h2 className="text-xl  font-bold leading-tight
                   text-neutral-800 sm:text-2xl lg:text-4xl"
                 >
                   {stat.heading}

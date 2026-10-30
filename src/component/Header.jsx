@@ -15,23 +15,16 @@ const languages = [
 function Logo() {
   return (
     <a href="#home" className="flex shrink-0 items-center gap-2 text-white">
-      <span className="grid grid-cols-3 gap-1 -rotate-12">
-        {Array.from({ length: 6 }).map((_, i) => (
-          <span
-            key={i}
-            className="h-2 w-2 rounded-full bg-white"
-          />
-        ))}
-      </span>
+    
 
 
-<Link to="/" className="flex items-center">
-  <img
-    src="https://i.ibb.co/RTPrg8Qb/logo.jpg"
-    alt="Agranova Logo"
-    className="h-10 w-auto object-contain"
-  />
-</Link>
+      <Link to="/" className="flex items-center">
+        <img
+          src="https://i.ibb.co/RTPrg8Qb/logo.jpg"
+          alt="Agranova Logo"
+          className="h-10 w-auto object-contain"
+        />
+      </Link>
 
 
 

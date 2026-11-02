@@ -2,6 +2,19 @@
 import { useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import myImage from "../assets/catalog-bottom.svg";
+import PotassiumNitrateImage from "../assets/Potassium-Nitrate-Premium-Grade.png";
+import AnhydrousLiquefiedAmmoniaImage from "../assets/Ammonia anhydrous liquefied GOST 6221-90 Grade Ak, B.png";
+import AmmoniumNitrateGOST2_2013GradeAImage from "../assets/Ammonium Nitrate GOST 2-2013 Grade A.png";
+import SodiumNitriteUntreatedImage from "../assets/Sodium Nitrite Untreated.png";
+import MonopotassiumPhosphatePremiumGradeImage from "../assets/Monopotassium Phosphate Premium Grade.png";
+import UreaTechnicalPrilledFirstGradeImage from "../assets/Urea Technical Prilled First Grade.png";
+import AmmoniunNitrite from "../assets/Ammonium Nitrate Porous prilled (PPAN).png";
+import Map from "../assets/Monoammonium Phosphate Special Water-Soluble.png";
+import GranularSulphurBioFertilizerImage from "../assets/Granular Sulphur Bio-Fertilizer Sack.png";
+import ADBLUENitrogenoxideImage from "../assets/ADBLUE, Nitrogen oxide reducer AUS 32.png";
+import NPK19419Image from "../assets/NPK 19419.png";
+import SolarCalciumNitrateFertilizerImage from "../assets/Solar Calcium Nitrate Fertilizer Bag.png";
+import AmoniaAnhydrousLiquefiedGOST6221_90GradeAkBImage from "../assets/Ammonia anhydrous liquefied GOST 6221-90 Grade Ak, B.png";
 import {
   Search,
   ArrowUpRight,
@@ -40,7 +53,7 @@ export const products = [
     id: 1,
     name: "Potassium Nitrate Premium Grade",
     category: "Potassium Nitrate",
-    image: "https://i.ibb.co/s9V3BzwG/Potassium-Nitrate-Premium-Grade.png",
+    image: PotassiumNitrateImage,
     description:
       "Potassium nitrate is a high-quality source of potassium and nitrogen used in the production of fertilizers for modern agriculture. It supports healthy plant growth, improves nutrient uptake, and contributes to crop development and quality. Its high solubility makes it suitable for fertigation, hydroponic systems, and other specialized agricultural applications. Potassium nitrate is also used in selected industrial processes.",
     scopes: ["Agriculture", "Fertilizers", "Industrial applications"],
@@ -49,7 +62,7 @@ export const products = [
     id: 2,
     name: "Anhydrous Liquefied Ammonia",
     category: "Ammonia",
-    image: "https://i.ibb.co/tMYcc3QK/Anhydrous-Liquefied-Ammonia.png",
+    image: AnhydrousLiquefiedAmmoniaImage,
     description:
       "Anhydrous liquefied ammonia is an industrial chemical used in fertilizer manufacturing, chemical processing, and other industrial applications.",
     scopes: ["Agriculture", "Chemicals", "Fertilizer Manufacturing", "Industrial Processing"],
@@ -58,7 +71,7 @@ export const products = [
     id: 3,
     name: "Ammonium Nitrate GOST 2-2013 Grade A",
     category: "Nitrates",
-    image: "https://i.ibb.co/kgYRtq58/Ammonium-Nitrate-GOST-2-2013-Grade-A.png",
+    image: AmmoniunNitrite,
     description:
       "Ammonium nitrate is used as the main oxidiser in various types of industrial explosives.",
     scopes: ["Mining", "Construction"],
@@ -67,7 +80,7 @@ export const products = [
     id: 4,
     name: "Monopotassium Phosphate Premium Grade",
     category: "Phosphate Fertilizers",
-    image: "https://i.ibb.co/842Bf9G2/Monopotassium-Phosphate-Premium-Grade.png",
+    image: MonopotassiumPhosphatePremiumGradeImage,
     description:
       "Monopotassium phosphate (MKP) is a high-purity, water-soluble fertilizer that provides essential phosphorus and potassium for healthy plant growth and improved crop productivity. It supports root development, flowering, fruit formation, and crop quality. Its excellent solubility makes it suitable for fertigation, hydroponics, and foliar application in modern agricultural systems. Monopotassium phosphate is also used in selected food-processing and industrial applications, subject to the required grade and specifications.",
     scopes: ["Agriculture", "Fertilizers", "Industrial applications"],
@@ -76,7 +89,7 @@ export const products = [
     id: 5,
     name: "Urea Technical Prilled First Grade",
     category: "Urea",
-    image: "https://i.ibb.co/JwDSgpTq/Urea-Technical-Prilled-First-Grade.png",
+    image: UreaTechnicalPrilledFirstGradeImage,
     description:
       "Urea Technical Prilled First Grade is a technical-grade urea product composed primarily of carbamide (CO(NH₂)₂), a nitrogen-containing organic compound. It is used as an industrial raw material in chemical manufacturing, resin and adhesive production, and other processes requiring urea. Product purity, biuret content, moisture, and other specifications depend on the manufacturer's technical data sheet.",
     scopes: ["Chemicals", "Industrial Processing", "Resin Manufacturing", "Adhesives"],
@@ -85,7 +98,7 @@ export const products = [
     id: 6,
     name: "Ammonium Nitrate Porous prilled (PPAN)",
     category: "Nitrates",
-    image: "https://i.ibb.co/hxWKf7WT/Ammonium-Nitrate-Porous-prilled-PPAN.png",
+    image: AmmoniunNitrite,
     description:
       "Porous modified ammonium nitrate is used in the production of the ANFO industrial explosive, which is typically used for 127 mm wells.",
     scopes: ["Mining"],
@@ -94,7 +107,7 @@ export const products = [
     id: 7,
     name: "Sodium Nitrite Untreated",
     category: "Specialties",
-    image: "https://i.ibb.co/N6b7BKJb/Sodium-Nitrite-Untreated.png",
+    image: SodiumNitriteUntreatedImage,
     description:
       "Sodium nitrite is utilised across multiple industries, notably as a gas-forming agent in explosive emulsion formulations.",
     scopes: ["Chemicals", "Mining"],
@@ -103,7 +116,7 @@ export const products = [
     id: 8,
     name: "MAP Technical Water-Soluble",
     category: "Specialties",
-    image: "https://i.ibb.co/WW7QM6yV/Monoammonium-Phosphate-Special-Water-Soluble.png",
+    image: Map,
     description:
       "Monoammonium phosphate is a universal fire-retarding agent.",
     scopes: ["Fire protection", "Woodworking"],
@@ -113,7 +126,7 @@ export const products = [
     id: 9,
     name: "Granular Sulphur Bio-Fertilizer",
     category: "Specialties",
-    image: "https://i.ibb.co/GvjkqNdk/Granular-Sulphur-Bio-Fertilizer-Sack.png",
+    image: GranularSulphurBioFertilizerImage,
     description:
       "Granular sulphur bio-fertilizer supports plant nutrition and soil fertility by supplying sulphur, an essential nutrient for healthy plant growth.",
     scopes: ["Agriculture", "Fertilizers", "Soil Improvement"],
@@ -122,7 +135,7 @@ export const products = [
     id: 10,
     name: "ADBLUE, nitrogen oxide reducer AUS 32",
     category: "ADBLUE",
-    image: "https://i.ibb.co/d4Qh0mHp/ADBLUE-Nitrogen-oxide-reducer-AUS-32.png",
+    image: ADBLUENitrogenoxideImage,
     description:
       "The product is intended to effectively reduce emissions of nitrogen oxides from vehicles with diesel engines.",
     scopes: ["Environmental solutions"],
@@ -131,7 +144,7 @@ export const products = [
     id: 11,
     name: "Ammonia anhydrous liquefied GOST 6221-90 Grade Ak, B",
     category: "Ammonia",
-    image: "https://i.ibb.co/bMx7y0pW/Ammonia-anhydrous-liquefied-GOST-6221-90-Grade-Ak-B.png",
+    image: AmoniaAnhydrousLiquefiedGOST6221_90GradeAkBImage,
     description:
       "Grade Ak and B anhydrous liquefied ammonia is used in the production of nitrogen fertilisers and as a standalone straight fertiliser.",
     scopes: ["Chemicals", "Environmental solutions"],
@@ -140,7 +153,7 @@ export const products = [
     id: 12,
     name: "NPK 19-4-19",
     category: "Specialties",
-    image: "https://i.ibb.co/wNcz2nT3/NPK-19419.png",
+    image: NPK19419Image,
     description:
       "NPK 19-4-19 is a compound fertilizer containing 19% nitrogen (N), 4% phosphate (P₂O₅), and 19% potash (K₂O). It provides nitrogen to support vegetative growth and chlorophyll production, phosphorus for energy transfer and root development, and potassium for water regulation and overall plant health. It is used to support crop growth and nutrient management where this nutrient balance is appropriate for the crop and soil conditions.",
     scopes: ["Agriculture", "Fertilizers", "Crop Nutrition", "Horticulture"],
@@ -149,7 +162,7 @@ export const products = [
     id: 13,
     name: "Solar Calcium Nitrate Fertilizer",
     category: "Nitrates",
-    image: "https://i.ibb.co/fdpwjFK9/Solar-Calcium-Nitrate-Fertilizer-Bag.png",
+    image: SolarCalciumNitrateFertilizerImage,
     description:
       "Solar Calcium Nitrate Fertilizer is a water-soluble fertilizer that supplies plants with calcium and nitrogen. Calcium supports cell wall development, tissue strength, and healthy growing points, while nitrogen promotes vegetative growth and chlorophyll formation. It is used in crop nutrition programs to support plant development and improve fruit quality where calcium and nitrogen supplementation is required.",
     scopes: ["Agriculture", "Fertilizers", "Horticulture", "Greenhouse Cultivation"],

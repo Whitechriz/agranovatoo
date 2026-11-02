@@ -71,7 +71,7 @@ export const products = [
     id: 3,
     name: "Ammonium Nitrate GOST 2-2013 Grade A",
     category: "Nitrates",
-    image: AmmoniunNitrite,
+    image: AmmoniumNitrateGOST2_2013GradeAImage,
     description:
       "Ammonium nitrate is used as the main oxidiser in various types of industrial explosives.",
     scopes: ["Mining", "Construction"],

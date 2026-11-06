@@ -23,7 +23,7 @@ export default function MobileScrollStats() {
     <section className="block bg-white py-12 md:hidden">
       <div className="mb-6 px-5">
         <p className="text-xs font-semibold uppercase tracking-[0.25em] text-emerald-700">
-          Uralchem in numbers
+          Agranova in numbers
         </p>
         <p className="mt-2 text-sm text-neutral-500">
           Swipe to explore <span aria-hidden="true">→</span>
